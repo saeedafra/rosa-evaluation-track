@@ -11,4 +11,4 @@ The main branch of the repository always contains examples, templates and necess
 
 You'll get your personal branch "candidate/\<your-name\>/main". This branch is protected, meaning that you can't directly push to it. For submitting an assignment, you must always create a branch "candidate/\<your-name\>/\<desired-branch-name\>", push your changes and once ready, make a Merge Request (MR).
 
-Once you submit an MR, reviewers will get back to your with comments if necessary. The assignment is passed once your MR is approved and merged into "candidate/\<your-name\>/main".
+Once you submit an MR, reviewers will get back to you with comments if necessary. The assignment is passed once your MR is approved and merged into "candidate/\<your-name\>/main".
