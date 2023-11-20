@@ -1,4 +1,4 @@
-Note: this is an .md (markdown) file which contains formatting. Please open it directly on github website. Of course, you can read it in your desired editor if you don't get confused by the formatting characters.
+Note: this is an .md (markdown) file which contains formatting. Please open it directly on github website.
 
 # Assignment 1
 
