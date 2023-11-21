@@ -2,9 +2,9 @@
 Interested students can freely join the track, where they'll be asked to do a number of assignments. By doing so, we can make sure they have the minimum necessary skills required in the project. Once the track is successfully done, students can apply for a position. 
 
 # Assignments
-There is a series of assignments, each covering a certain topic. For each, we provide examples and the assignment problem statement. Each assignment assumes you know the previous assignments and are comfortable with them.
+There is a series of assignments, each covering a certain topic. For each, we provide examples and the assignment problem statement. Each assignment assumes you know the previous assignments and are comfortable with them. Please follow the order specified in [recommended_order.csv](recommended_order.csv).
 
-We cannot provide any training. The example will help you a lot, but you'll have your own self-study to do.
+We cannot provide any training. The example will help you a lot, but you'll have your own self-study to do. 
 
 # How to submit assignments
 The main branch of the repository always contains examples, templates and necessary files. There is a folder for each assignment. 
