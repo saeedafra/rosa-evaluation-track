@@ -14,9 +14,9 @@ I hope you know what integral is. If not, here is a very quick and very inaccura
 The red curve is some function $f(x)$ drawn from $x=-2$ to $x=2$. The integral of $f(x)$ over the interval $[-2,2]$ is simply the area under the curve. Under the curve here means between the curve and the x-axis. When the curve goes below the x-axis, the area becomes negative. Now do you agree that the area of all the blue rectangles is almost the same as the area under the curve? The thinner they are, the better the approximation is. This is a very simple way of calculating an integral.
 
 Now in a bit more formal way: You can approximately calculate the integral of $f(x)$ over $[a,b]$, shown as
-$$ S = \int_a^b f(x) dx $$
+$$S = \int_a^b f(x) dx $$
 by doing the following summation:
-$$ \tilde{S} = \sum_{i=0}^{N-1} f(i\Delta+\frac{\Delta}{2}) \Delta $$ 
+$$\tilde{S} = \sum_{i=0}^{N-1} f(i\Delta+\frac{\Delta}{2}) \Delta $$ 
 where $\Delta$ is the width of the blue recatngles and $i\Delta+\frac{\Delta}{2}$ is the center of the $i^\mathrm{th}$ blue rectangle on x-axis. So clearly $f(i\Delta+\frac{\Delta}{2}) \Delta $ is the area of the $i^\mathrm{th}$ rectangle. Agree?
 
 Now a bit about $sin(x)$ as it's also part of the assignment. You know that the sine function is periodic right? That is, $sin(x+k2\pi)=sin(x)$ for any $k\in\mathcal{Z}$. Did you also know that the integral of $sin(x)$ over one period is zero? For example, 
