@@ -6,9 +6,16 @@ There is a series of assignments, each covering a certain topic. For each, we pr
 
 We cannot provide any training. The example will help you a lot, but you'll have your own self-study to do.
 
-# How does it work?
+# How to submit assignments
 The main branch of the repository always contains examples, templates and necessary files. There is a folder for each assignment. 
 
-You'll get your personal branch "candidate/\<your-name\>/main". This branch is protected, meaning that you can't directly push to it. For submitting an assignment, you must always create a branch "candidate/\<your-name\>/\<desired-branch-name\>", push your changes and once ready, make a Merge Request (MR).
+You'll get your personal branch `candidate/<your-name>/main`. This branch is protected, meaning that you can't directly push to it. For submitting an assignment, you must always create a branch `candidate/<your-name>/<desired-branch-name>`, push your changes and once ready, make a Merge Request (MR).
 
-Once you submit an MR, reviewers will get back to you with comments if necessary. The assignment is passed once your MR is approved and merged into "candidate/\<your-name\>/main".
+Once you submit an MR, reviewers will get back to you with comments if necessary. The assignment is passed once your MR is approved and merged into `candidate/<your-name>/main`.
+
+# Requirements
+There are certain rules about how you pass an assignment, how much time you have, etc. Here are the requirements:
+
+1. You have 90 days to pass all assignments from the time you receive the invitation email to the repository.
+2. You pass an assignment ONLY when the related Merge Request is approved.
+3. Learning how to use Git and Github are among the goals of this track. So in addition to C++ or MATLAB assignments, good use of git matters as well.
