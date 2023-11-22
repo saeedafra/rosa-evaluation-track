@@ -1,12 +1,11 @@
-Note: this is an .md (markdown) file which contains formatting. Please open it directly on github website.
+Note: this is an `.md` (markdown) file which contains formatting. Please open it directly on github website.
 
 # Assignment
+* `example_1.cpp` is about basic use of `if`. 
+* `example_2.cpp` is about `cmath` and math functions with a bit more of `if`. 
+* `example_3.cpp` is a basic example about summing a series of numbers. This assignment comes after these three examples.
 
-`example_1.cpp` is about basic use of `if`. 
-
-`example_2.cpp` is about `cmath` and math functions with a bit more of `if`. 
-
-`example_3.cpp` is a basic example about summing a series of numbers. This assignment comes after these three examples.
+**Note**: For a beginner, this assignment might look too difficult. But this is a direct extension of `example_3.cpp`. In other words, it's simple from programming point of view. It could look difficult because this is the first time we are connecting mathematics and programming. So take your time and make sure you understand the math first. And then try to modify `example_3.cpp` to reach the solution.
 
 I hope you know what integral is. If not, here is a very quick and very inaccurate tour. Just enough to prepare you for the assignment. Have a look at the following picture (from https://en.wikipedia.org/wiki/Numerical_integration).
 ![numeric integration](graphics/integral.png)
@@ -17,7 +16,7 @@ Now in a bit more formal way: You can approximately calculate the integral of $f
 $$S = \int_a^b f(x) dx $$
 by doing the following summation:
 $$\tilde{S} = \sum_{i=0}^{N-1} f(i\Delta+\frac{\Delta}{2}) \Delta $$ 
-where $\Delta$ is the width of the blue recatngles and $i\Delta+\frac{\Delta}{2}$ is the center of the $i^\mathrm{th}$ blue rectangle on x-axis. So clearly $f(i\Delta+\frac{\Delta}{2}) \Delta $ is the area of the $i^\mathrm{th}$ rectangle. Agree?
+where $\Delta$ is the width of the blue recatngles and $i\Delta+\frac{\Delta}{2}$ is the center of the $i^\mathrm{th}$ blue rectangle on x-axis. So clearly $f(i\Delta+\frac{\Delta}{2}) \Delta$ is the area of the $i^\mathrm{th}$ rectangle. Agree?
 
 Now a bit about $sin(x)$ as it's also part of the assignment. You know that the sine function is periodic right? That is, $sin(x+k2\pi)=sin(x)$ for any $k\in\mathcal{Z}$. Did you also know that the integral of $sin(x)$ over one period is zero? For example, 
 $$\int_0^{2\pi} sin(x) dx = 0.$$ 
@@ -34,8 +33,8 @@ Write a C++ program that calculates the integral of $sin( x)$ over $[0,2\pi]$ wi
     The integral for N = 40 is -2.39392e-16
     The integral for N = 80 is 8.98153e-16
 
-Something odd about the result? Here is a bonus assignment for those who're interested: Try to explain these numbers, where they come from, and why they don't decrease with $N$. Put your explanation in `explanation.md` and submit it along with your solution. (This is just a bonus, just skip it if you don't have enough time)
+**Bonus assignment**: Something odd about the result? Here is a bonus assignment for those who're interested. Try to explain these numbers, where they come from, and why they don't decrease with $N$. Put your explanation in `explanation.md` and submit it along with your solution. (This is just a bonus. Skip it if you don't have enough time)
 
 You must use `basic_integral.cpp` as the file name and save it in this folder.
 
-To learn about how assignments and submissions work, see readme.md of the repository.
+To learn about how assignments and submissions work, see `readme.md` of the repository.
