@@ -4,14 +4,14 @@ Interested students can freely join the track, where they'll be asked to do a nu
 # Assignments
 There is a series of assignments with a specific order:
 * Each assignment covers a certain topic.
-* For each assigment, we provide examples together with the assignment problem statement. Understanding the examples is important for soliving the problem.
+* For each assignment, we provide examples together with the assignment problem statement. Understanding the examples is important for solving the problem.
 * Each assignment assumes that you know the previous assignments and are comfortable with them.
 * Please follow the order specified in [recommended_order.csv](recommended_order.csv).
 * We cannot provide any training. The example will help you a lot, but you'll have to do your own self-study.
 * Feel free to work on the assignment in a group. But every student must write the solution and submit it individually.
 
 # How to submit assignments
-The following instruction assumes that you know what git and github are.
+The following instruction assumes that you know what Git and Github are.
 
 1. The main branch of this repository always contains examples, templates and necessary files. There is a folder for each assignment.
 2. We will create a personal branch `candidate/<your-name>/main` for you.
