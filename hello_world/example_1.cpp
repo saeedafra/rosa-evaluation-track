@@ -1,3 +1,6 @@
+/* example_1.cpp prints "Hello World!" on the screen. Nothing more. 
+*/
+
 #include <iostream>
 
 int main() {

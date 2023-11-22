@@ -1,3 +1,9 @@
+/* This example adds a little bit to example_1.cpp
+The program prints a box on the screen made of astericks.
+Here you learn how to use two nested for loops for go over rows 
+and columns and print the astericks.
+*/
+
 #include <iostream>
 
 using namespace std;

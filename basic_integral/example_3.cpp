@@ -1,3 +1,8 @@
+/* This example is about calculating a sum using for loops.
+You will have to calculate a more complicated sum in the assignment.
+So make sure you understand this example well.
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,9 @@
+/* This program calculates the roots of a quadratic equation. 
+(You can review the math in example_2.md.)
+In this example you learn how to do basic math in C++ and using
+functions from cmath like sqrt() and pow()
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
