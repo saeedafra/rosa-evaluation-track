@@ -1,4 +1,4 @@
-# What is ROSA evaluation track?
+# What is ROSA evaluation track? 
 Interested students can freely join the track, where they'll be asked to do a number of assignments. By doing so, we can make sure they have the minimum necessary skills required in the project. Once the track is successfully done, students can apply for a job position in ROSA project. 
 
 # Assignments
