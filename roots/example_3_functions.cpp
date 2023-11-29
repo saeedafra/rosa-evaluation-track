@@ -2,12 +2,15 @@
 
 using namespace std;
 
-void get_array(float x[], int *num)
+void get_array(float x[], int &num)
 {
+    // it's not a good practice to do cin and cout 
+    // (or such IO operations) in a function which has 
+    // a specific algorithm or computation to perform.
     cout << "How many numbers? (1 to 100): ";
-    cin >> *num;
+    cin >> num;
 
-    for(int i=0; i<*num; i++)
+    for(int i=0; i < num; i++)
     {
         cout << "number " << i << ":";
         cin >> x[i]; 

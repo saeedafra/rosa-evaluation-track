@@ -11,6 +11,10 @@ int main() {
     //with basic arrays, we have to choose the array size at definition
     float data[100];
 
+    // NOTE: the standard data structure to store an array is C++ vector. 
+    // We will soon start using vectors, which does not need to have constant 
+    // size and has many useful features.
+
     cout << "How many numbers? (1 to 100): ";
     cin >> n;
 

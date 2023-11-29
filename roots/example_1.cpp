@@ -8,7 +8,8 @@ using namespace std;
 
 bool is_odd(int);
 
-int main() {
+int main() 
+{
     int n;
 
     cout << "Enter an integer: ";
@@ -26,8 +27,12 @@ int main() {
 
 bool is_odd(int x)
 {
-    bool result = true;
     if(x % 2 == 0)
-        result = false;
-    return result;
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
 }

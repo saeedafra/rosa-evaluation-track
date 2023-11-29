@@ -9,16 +9,16 @@ or return values.
 
 using namespace std;
 
-int main() {
-    
-    int i, n;
+int main() 
+{    
+    int n;
     
     float data[100];
     float reversed_data[100];
 
-    get_array(data,&n);
+    get_array(data, n);
 
-    reverse_array(data,reversed_data,n);
+    reverse_array(data, reversed_data, n);
     
     cout << endl;
     cout << "The numbers in the reverse order:" << endl;

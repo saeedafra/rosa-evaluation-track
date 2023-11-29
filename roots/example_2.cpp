@@ -11,13 +11,14 @@ defining functions, here you'll see that the function is defined in a second
 
 using namespace std;
 
-int main() {
-    double a,b;
+int main() 
+{
+    double a, b;
 
     cout << "Enter two numbers: ";
     cin >> a >> b;
 
-    swap_doubles(&a,&b);
+    swap_doubles(a, b);
 
     cout << "Making sures they are swaped: ";
     cout << a << ", " << b << endl;

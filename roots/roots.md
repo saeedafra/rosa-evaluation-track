@@ -1,6 +1,6 @@
 # Assignment
 * `example_1.cpp` shows how you can use functions. 
-* `example_2.cpp` shows how you can use pointers to have multiple return values.
+* `example_2.cpp` shows how you can use references to have multiple return values.
 * `example_3.cpp` shows how you can pass arrays to functions.
 
 This assignment involves finding the roots of a quadratic equation numerically. There are very well-known algorithms for finding roots in general. But for this assignment, you could use the simplest algorithm.
