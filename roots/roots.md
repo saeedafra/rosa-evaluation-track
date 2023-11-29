@@ -24,7 +24,7 @@ Write a C++ program that solves a quadratic equation both analytically and numer
     x=1, y=0
     x=4, y=0
 
-You must use `derivates.cpp` as the main file which calls functions `quad_roots` and `roots_numeric` from `roots.cpp` and `roots.h`
+You must use `roots.cpp` as the main file which calls functions `quad_roots` and `roots_numeric` from `roots_lib.cpp` and `roots_lib.h`
 * `quad_roots` gets $a, b$ and $c$ and returns the solutions and the number of solutions.
 * `roots_numeric` gets the number of samples $N$ and the array of x-values and y-values of $f(x)$. Then it returns the number of solutions, x-values and y-values of the solutions. (y-values are expected to be very close to zero but they don't have to be exactly zero as this is a numeric calculation)
 

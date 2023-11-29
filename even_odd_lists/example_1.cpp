@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    int i, n;
+    int n;
     //with basic arrays, we have to choose the array size at definition
     float data[100];
 
