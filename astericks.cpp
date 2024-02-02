@@ -1,6 +1,7 @@
 /*this examle prints a n_row by n_col rectangle made of astericks*/
 
 #include <iostream>
+using namespace std;
 
 int main() {
     int n_row, n_col;
