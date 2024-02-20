@@ -2,3 +2,6 @@ order, assignment, goal
 1, hello_world, "to try compilation, submission, git, etc"
 2, astericks, basic for loop
 3, basic_integral, "if blocks, more about for loops, some math. trying to get into computations."
+4, even_odd_lists, "basic arrays"
+5, roots, "functions, references, arrays"
+6, pulse, "vectors, writing to text file, plotting in MATLAB"
